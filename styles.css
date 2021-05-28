@@ -43,6 +43,7 @@ h1 {
   background-color: #3e526a;
   opacity: 0.75;
   outline: 1px solid #02203c;
+  box-shadow: inset 0px 0px 100px #02203c;
 }
 
 .cube-face img {
