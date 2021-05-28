@@ -31,11 +31,11 @@ h1 {
   perspective-origin: 50% 100px;
 }
 
-.shadow {
+.shadow, .cube-faces {
   position: relative;
   width: 300px;
   transform-style: preserve-3d;
-  animation: spin 45s infinite linear;
+  animation: spin 10s infinite linear;
 }
 
 .shadow div {
@@ -53,13 +53,6 @@ h1 {
 .cube-container {
   perspective: 800px;
   perspective-origin: 50% 100px;
-}
-
-.cube-faces {
-  position: relative;
-  width: 300px;
-  transform-style: preserve-3d;
-  animation: spin 45s infinite linear;
 }
 
 .cube-face {
