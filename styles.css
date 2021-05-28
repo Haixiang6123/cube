@@ -24,12 +24,38 @@ h1 {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -25%);
+}
+
+.shadow-container {
   perspective: 800px;
   perspective-origin: 50% 100px;
 }
 
+.shadow {
+  position: relative;
+  width: 300px;
+  transform-style: preserve-3d;
+  animation: spin 45s infinite linear;
+}
+
+.shadow div {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  opacity: .98;
+  box-shadow: 0 0 100px #000;
+  transform: rotateX(90deg) translateY(150px);
+  transform-origin: bottom center;
+}
+
 .cube-container {
-  margin: 40px auto;
+  perspective: 800px;
+  perspective-origin: 50% 100px;
+}
+
+.cube-faces {
   position: relative;
   width: 300px;
   transform-style: preserve-3d;
