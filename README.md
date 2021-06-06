@@ -3,8 +3,6 @@ A spinning cube.
 
 Check out the [demo here](http://yanhaixiang.com/cube/).
 
-![](demo.gif)
-
 ## 如何实现
 
 最近在 [http://algoexpert.io/](http://algoexpert.io/) 上看到一个非常好玩的东西。
